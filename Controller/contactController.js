@@ -1,5 +1,5 @@
 // import contact model
-Contact = require("./contactModel");
+Contact = require("../Model/contactModel");
 
 // handle index actions
 exports.index = (req, res) => {

@@ -9,7 +9,7 @@ router.get("/", (req, res) => {
 });
 
 // import contact controller
-var contactController = require("./contactController");
+var contactController = require("../Controller/contactController");
 
 // contact routes
 router
